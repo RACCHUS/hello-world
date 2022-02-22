@@ -1,2 +1,3 @@
 # hello-world
 New coder looking to make a table/chart building app from images, text, and possibly audio.
+Know bit of HTML, CSS, Javascript, and Python.
