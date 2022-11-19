@@ -1,3 +1,3 @@
 # hello-world
-New coder looking to make a table/chart building app from images, text, and possibly audio.
-Know bit of HTML, CSS, Javascript, and Python.
+Know HTML, CSS and bits of Javascript, Python, PHP, and Lua.
+Interested in replicating human senses (see, hear, touch, taste, feel, simulate) in AIs (video/images, audio, sensors, 3D environment) to gather, evaluate, make predictions.
