@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pave the World Home</title>
+	<meta name="desciption" content="Pave the World Homepage: Find news updates, interesting topics, and ongoing projects provided by RACCHUS.">
+	<meta name="author" content="RACCHUS">
+	<meta name="keywords" content="news interesting projects">
+	<meta property="og:title" content="Pave the World Home">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Pave the World Homepage: Find news updates, interesting topics, and ongoing projects provided by RACCHUS.">
+	<!-- <meta property="og:url" content="https://pavetheworld.000webhostapp.com/"> -->
+	<meta property="article:21:46:00" content="2022-11-18">
+	<meta property="article:21:46:00" content="2022-11-18">
+	<?php include("Meta.php");?>
+
+	<!-- <link rel="icon" href="/favicon.ico"> -->
+	<!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+</head>
+
+<main>
+
+</main>
+
+<body>
+
+</body>
+</html>
