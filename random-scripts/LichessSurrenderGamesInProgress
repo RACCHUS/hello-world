@@ -1,0 +1,40 @@
+// ==UserScript==
+// @name         Automate Lichess Surrendering Games In Progress
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Automate clicks on specific elements
+// @author       You
+// @match        https://lichess.org/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // This script does not work to abort games that cannot be surrendered and lowering the time intervals results errors
+    // Function to automate the process
+    function automateProcess() {
+        // Click on the first <a> tag in the "now-playing" div
+        var nowPlayingLink = document.querySelector('.now-playing a');
+        if (nowPlayingLink) {
+            nowPlayingLink.click();
+        }
+
+        // Wait for the page to load
+        setTimeout(function() {
+            // Click on the "Resign" button twice to confirm resignation
+            var resignButton = document.querySelector('button[title="Resign"]');
+            if (resignButton) {
+                resignButton.click();
+                resignButton.click(); // Click the button again to confirm
+
+            // Go back to the previous page
+            window.location.href = 'https://lichess.org';
+            }
+        }, 200); // Adjust this delay as needed
+    }
+
+    // Start the automation with an interval
+    // Here, we're running the process every 10 seconds as an example
+    var intervalId = setInterval(automateProcess, 200);
+})();
